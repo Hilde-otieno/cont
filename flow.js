@@ -8,7 +8,16 @@ function arrNum(numbers){
         console.log(i*10)
     })
 }
+
+
+
 arrNum([34,28,12,8,4,9,29,10,30])
+
+let numbers=[1,2,3,4,5,6,7,8,9]
+while(numbers[4]){
+    console.log(numbers)
+    break;
+}
 
 
 function arrString(strings){
@@ -20,6 +29,17 @@ console.log(strings[i]);
     }
 }
 arrString(['apple','plum','banana','strawberries','kiwi'])
+
+
+function arrString(words){
+    for(let j=0; i<words.length; j++){
+        console.log(words[j]);
+    }
+}
+
+arrString['Megan', 'Gregor', 'Julius', 'Cree']
+
+
 
 function arrayOfStrings(strings){
      let reversed = '';
