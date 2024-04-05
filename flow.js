@@ -21,13 +21,6 @@ console.log(strings[i]);
 }
 arrString(['apple','plum','banana','strawberries','kiwi'])
 
-// function arrayOfString(){
-//     let words 
-//     for (element of words){
-//         console.log(element)
-//     }
-// }
-// arrayOfString('Megan', 'Greg', 'Rose', 'Julius', 'Cree')
 function arrayOfStrings(strings){
      let reversed = '';
      let i=strings.length-1;
